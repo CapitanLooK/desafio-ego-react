@@ -1,0 +1,64 @@
+@import '../../utils/styles/theme.scss';
+@import '../../utils/styles/flex.scss';
+
+.vehicle{
+    @include flex(row, center, center,wrap);
+}
+
+.vehicleContainer{
+    @include flex(column, center, center);
+    width: 300px;
+    margin: 30px;
+}
+
+.vehicleTitle
+    {
+        width: 262px;
+        height: 30px;
+        margin: 0 3px 8px;
+        font-family: $montserrat;
+        font-size: $font-size-m;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: -0.65px;
+        text-align: center;
+        color: $color-black;
+      }
+
+.vehiclePriceYear{
+        width: 268px;
+        height: 18px;
+        margin: 8px 0 20px;
+        font-family: $montserrat;
+        font-size: $font-size-xs;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.28px;
+        text-align: center;
+        color: $color-black;
+}
+
+.vehicleImg{
+    width: 268px;
+    height: 132px;
+    object-fit: contain;
+}
+
+.vehicleLink{
+    text-decoration: none;
+    width: 152px;
+    height: 34px;
+    margin: 20px 59px 0 58px;
+    border-radius: 40px;
+    background-color: $color-black;
+    p{
+        color: $color-white;
+        text-align: center;
+        margin-top: 7px;
+        font-family: $montserrat;
+    }
+}

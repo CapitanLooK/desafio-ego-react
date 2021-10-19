@@ -1,0 +1,100 @@
+@import '../../utils/styles/theme.scss';
+@import '../../utils/styles/flex.scss';
+
+
+.dataSheetContainer{
+    @include flex(row, center, center)
+}
+
+.dataSheetImg{
+    width: 559px;
+    height: 320px;
+    margin: 0 118px 0 0;
+    object-fit: contain;
+}
+
+.dataSheetInfo{
+    @include flex(column, center, center)
+}
+
+.dataSheetName{
+    width: 385px;
+    height: 29px;
+    margin: 0 90px 30px 118px;
+    font-family: $montserrat;
+    font-size: $font-size-sm;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: $color-dark-gray;
+}
+
+.dataSheetTitle{
+    width: 475px;
+    height: 114px;
+    margin: 8px 0 80px 118px;
+    font-family: $montserrat;
+    font-size: $font-size-xl;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -1px;
+    color: $color-dark-gray;
+}
+
+.dataSheetDescription{
+    width: 385px;
+    height: 114px;
+    margin: 80px 90px 0 118px;
+    font-family: $montserrat;
+    font-size: $font-size-xs;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    color: $color-dark-gray;
+}
+
+.modelHigh{
+    @include flex(row, center, center)
+}
+
+@media only screen and (max-width: 769px){
+    .dataSheetContainer{
+        @include flex(column, center, center)
+    }
+
+    .dataSheetImg{
+            width: 345px;
+            height: 199px;
+            
+            object-fit: contain;
+        
+    }
+
+    .dataSheetName{
+        width: 345px;
+        height: 27px;  
+        margin: 0 0 11px;
+    }
+
+    .dataSheetDescription{
+        width: 345px;
+        height: 108px; 
+        margin: 19px 0 0;
+    }
+
+    .dataSheetTitle{
+        width: 445px;
+        height: 108px;
+        
+    }
+
+    .modelHigh{
+        @include flex(column, center, center)
+    }
+}

@@ -1,0 +1,48 @@
+@import '../../utils/styles/theme.scss';
+@import '../../utils/styles/flex.scss';
+
+.modelFeaturesContainer{
+    @include flex(column, center, center)
+}
+
+.modelFeaturesImg{
+    width: 269px;
+    height: 146px;
+    margin: 0 1px 20px 0;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.modelFeaturesName{
+    width: 261px;
+    height: 27px;
+    margin: 10px 29px 18px 20px;
+    font-family: $montserrat;
+    font-size: $font-size-sm;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.4px;
+    color: $color-dark-gray;
+    text-align: left;
+}
+
+.modelFeaturesDescription{
+    width: 271px;
+    height: 108px;
+    margin: 8px 1px 0 0;
+    font-family: $montserrat;
+    font-size: $font-size-s;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: -0.1px;
+    color: $color-dark-gray;
+    text-align: left;
+}
+
+@media only screen and (max-width: 769px){
+    @include flex(column, center, center, wrap)
+}

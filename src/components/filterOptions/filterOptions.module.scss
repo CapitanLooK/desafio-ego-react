@@ -1,0 +1,112 @@
+@import '../../utils/styles/theme.scss';
+@import '../../utils/styles/flex.scss';
+
+
+.filterOptionContainer{
+    @include flex(row, center, space-evenly);
+    margin: 40px 20px 0 20px;
+}
+
+
+
+.FilterOptionSelect{
+  display: none;
+}
+
+.orderOptionSelect{
+  border: none;
+  background-color: transparent;
+}
+
+select:focus{
+  outline: none;
+}
+
+.DescubrTodosLosM {
+    width: 712px;
+    height: 57px;
+    margin: 85px 159px 72px 150px;
+    font-family: $montserrat;
+    font-size: $font-size-xl;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -1px;
+    color: $color-dark-gray;
+    text-align: center;
+  }
+
+.filterButton{
+    border: none;
+    outline: none;
+    margin: 0 45px 0 0;
+    padding: 8px 18px 9px 19px;
+    border-radius: 18px;
+}
+
+.filterButton:hover{
+  background: $color-light-gray;
+}
+
+
+.filterButtons{
+    @include flex(row, center, flex-start);
+    button{
+      cursor: pointer;
+      background-color: $color-white;
+    }
+}
+
+
+.filtrarFor {
+    width: 73px;
+    height: 14px;
+    margin: 8px 45px 18px 0;
+    font-family: $montserrat;
+    font-size: $font-size-xs;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.08px;
+    color: $color-dark-gray;
+  }
+
+  .Line {
+    text-align: center;
+    width: 90%;
+    height: 1px;
+    margin: 9px 0 0 80px;
+    border: solid 1px #d8d8d8;
+  }
+
+  @media only screen and (max-width: 769px){
+    .filterButtons{
+      display: none;
+    }
+
+    .DescubrTodosLosM{
+      width: 345px;
+      height: 88px;
+      margin: 40px 15px 41px;
+      font-size: $font-size-l;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.26;
+      letter-spacing: -0.7px;
+      color: $color-black;
+    }
+
+    .FilterOptionSelect{
+      @include flex();
+      border: none;
+      background-color: transparent;
+    }
+
+    .Line{
+      width: 90%;
+      margin-left:18px;
+    }
+  }
