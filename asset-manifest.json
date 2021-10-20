@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/desafio-ego-react/static/css/main.7fe28d5e.chunk.css",
+    "main.js": "/desafio-ego-react/static/js/main.b84bbaa3.chunk.js",
+    "main.js.map": "/desafio-ego-react/static/js/main.b84bbaa3.chunk.js.map",
+    "runtime-main.js": "/desafio-ego-react/static/js/runtime-main.8be8349c.js",
+    "runtime-main.js.map": "/desafio-ego-react/static/js/runtime-main.8be8349c.js.map",
+    "static/js/2.0e92f121.chunk.js": "/desafio-ego-react/static/js/2.0e92f121.chunk.js",
+    "static/js/2.0e92f121.chunk.js.map": "/desafio-ego-react/static/js/2.0e92f121.chunk.js.map",
+    "index.html": "/desafio-ego-react/index.html",
+    "static/css/main.7fe28d5e.chunk.css.map": "/desafio-ego-react/static/css/main.7fe28d5e.chunk.css.map",
+    "static/js/2.0e92f121.chunk.js.LICENSE.txt": "/desafio-ego-react/static/js/2.0e92f121.chunk.js.LICENSE.txt",
+    "static/media/logo.d3d44bb3.svg": "/desafio-ego-react/static/media/logo.d3d44bb3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8be8349c.js",
+    "static/js/2.0e92f121.chunk.js",
+    "static/css/main.7fe28d5e.chunk.css",
+    "static/js/main.b84bbaa3.chunk.js"
+  ]
+}
